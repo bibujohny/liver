@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.impute import SimpleImputer
 
-# Load the dataset from the file
+# Load the dataset from the file ILPD
 data = pd.read_csv("ILPD.csv")
 
 # Display the first few rows of the dataset
